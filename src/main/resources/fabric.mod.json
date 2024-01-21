@@ -2,28 +2,26 @@
 	"schemaVersion": 1,
 	"id": "betterloot",
 	"version": "${version}",
-	"name": "BetterLoot",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Better Loot",
+	"description": "Better Loot completely overhauls Vanilla loot tables and makes them more rewarding!",
 	"authors": [
-		"Me!"
+		"TriQue"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TriQue06/better-loot-1.20.x",
+		"issues": "https://github.com/TriQue06/better-loot-1.20.x/issues",
+		"repo": "https://github.com/TriQue06/better-loot-1.20.x"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/betterloot/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.trique.BetterLoot"
+			"net.trique.betterloot.BetterLoot"
 		]
 	},
-	"mixins": [
-		"betterloot.mixins.json"
-	],
 	"depends": {
-		"fabricloader": ">=0.15.3",
+		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.20",
 		"java": ">=17",
 		"fabric-api": "*"

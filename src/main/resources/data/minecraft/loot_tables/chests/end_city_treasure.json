@@ -24,30 +24,14 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
-        "max": 8
+        "min": 3,
+        "max": 6
       },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 7
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
+          "weight": 8,
           "name": "minecraft:iron_ingot",
           "functions": [
             {
@@ -63,11 +47,39 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
           "name": "minecraft:saddle"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor"
+          "weight": 3,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -75,7 +87,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -91,7 +102,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_boots",
           "functions": [
             {
@@ -107,7 +117,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_chestplate",
           "functions": [
             {
@@ -123,7 +132,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_leggings",
           "functions": [
             {
@@ -139,7 +147,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_helmet",
           "functions": [
             {
@@ -155,7 +162,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_pickaxe",
           "functions": [
             {
@@ -171,7 +177,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:diamond_shovel",
           "functions": [
             {
@@ -184,6 +189,11 @@
               "treasure": true
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:iron_horse_armor"
         },
         {
           "type": "minecraft:item",
@@ -303,12 +313,12 @@
       "rolls": {
         "type": "minecraft:uniform",
         "min": 1,
-        "max": 4
+        "max": 2
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 5,
           "name": "minecraft:end_stone",
           "functions": [
             {
@@ -324,7 +334,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:ender_pearl",
           "functions": [
             {
@@ -340,7 +350,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:chorus_fruit",
           "functions": [
             {

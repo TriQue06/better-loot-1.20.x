@@ -24,15 +24,15 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
-        "max": 4
+        "min": 1,
+        "max": 2
       },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 16,
-          "name": "minecraft:netherite_ingot",
+          "weight": 9,
+          "name": "minecraft:diamond",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -47,39 +47,17 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "name": "minecraft:ancient_debris",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
+          "weight": 2,
+          "name": "minecraft:ancient_debris"
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "name": "minecraft:netherite_scrap",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              },
-              "add": false
-            }
-          ]
+          "weight": 2,
+          "name": "minecraft:netherite_scrap"
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 2,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -98,7 +76,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 2,
           "name": "minecraft:diamond_chestplate",
           "functions": [
             {
@@ -117,7 +95,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 2,
           "name": "minecraft:diamond_helmet",
           "functions": [
             {
@@ -136,7 +114,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 2,
           "name": "minecraft:diamond_leggings",
           "functions": [
             {
@@ -155,7 +133,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 2,
           "name": "minecraft:diamond_boots",
           "functions": [
             {
@@ -174,23 +152,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
-          "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 8
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
             {
@@ -199,6 +160,10 @@
               "add": false
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot"
         }
       ]
     },
